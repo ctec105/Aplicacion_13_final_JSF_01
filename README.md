@@ -2,7 +2,7 @@
 Se presenta un formulario donde se debe ingresar el nombre y apellido de una persona y al presionar el botón de “Procesar”. La aplicación responde con una página de saludo
 
 # Visitar el POST del ejercicio en el siguiente link
-http://i7exe.blogspot.pe/2013/12/sesion09-introduccion-jsf-java-server.html
+http://i7exe.blogspot.com/2013/12/sesion09-introduccion-jsf-java-server.html
 
 # Herramientas:
 Eclipse Java EE IDE for Web Developers,
