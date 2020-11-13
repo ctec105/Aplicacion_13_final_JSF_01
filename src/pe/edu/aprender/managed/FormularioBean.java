@@ -29,12 +29,11 @@ public class FormularioBean {
 		this.apellido = apellido;
 	}
 
+	// Actions
 	public String procesar() {
-		FacesContext.getCurrentInstance().addMessage(
-				null,
-				new FacesMessage("Su nombre completo es: ".concat(getNombre())
-						.concat(" ").concat(getApellido()), ":)"));
-		return "resultado"; // donde resultado = formulario.xhtml
+		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(
+				"Su nombre completo es: ".concat(getNombre()).concat(" ").concat(getApellido()), ":)"));
+		return "resultado"; // donde resultado = resultado.xhtml
 	}
 
 }
